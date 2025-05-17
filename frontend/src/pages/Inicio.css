@@ -1,0 +1,58 @@
+.contenedor-inicio {
+  min-height: 100vh;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background-color: #2d2a8f;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-top: 70px;
+  color: #1a237e;
+}
+
+.card-ganadores {
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 500px;
+  background: linear-gradient(to right, #8e2de2, #ff416c);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-ganadores h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.card-ganadores p {
+  font-size: 1.1rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
